@@ -43,9 +43,17 @@ img {
   word-break: break-all;
   max-width: 4ch;
 }
+
+a {
+  text-decoration: none;
+}
 /* Fim Gerais */
 
 /* Header */
+
+header > a {
+  color: #141414;
+}
 
 .header {
   display: flex;
@@ -63,7 +71,6 @@ img {
 .header-menu a {
   font-size: 1.2rem;
   font-weight: 500;
-  text-decoration: none;
   padding: 10px 20px;
   color: #141414;
   line-height: 1.3px;
@@ -101,9 +108,16 @@ img {
   z-index: -1;
 }
 
+.intro-right p {
+  font-size: 0.975rem;
+  margin-top: 15px;
+  width: 70ch;
+}
+
 /* Seção 01 - Experiência */
 .experiencia {
   margin-bottom: 60px;
+  margin-top: 40px;
 }
 .experiencia .subtitulo {
   color: #e4e4e4;
@@ -250,3 +264,17 @@ img {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+
+.cursos ul {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.idiomas ul {
+  margin-top: 8px;
+}
+/* mobile */
