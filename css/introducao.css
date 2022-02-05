@@ -47,7 +47,7 @@
     display: none;
   }
   .introducao h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .introducao h1::before {
     width: 30px;
